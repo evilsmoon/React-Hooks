@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './effect.css'
+import { Message } from './Message';
 export const SimpleForm = () => {
 
 
@@ -56,7 +57,7 @@ export const SimpleForm = () => {
                 />
             </div>
 
-
+            {(name==='123') && <Message/>}
         </>
     )
 }
