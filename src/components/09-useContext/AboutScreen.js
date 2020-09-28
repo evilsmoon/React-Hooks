@@ -3,7 +3,7 @@ import { UserContext } from './UserContext'
 
 // import './styles.css'
 
-export const AboutSreen = () => {
+export const AboutScreen = () => {
     
     const {user , setUser} = useContext(UserContext);
     

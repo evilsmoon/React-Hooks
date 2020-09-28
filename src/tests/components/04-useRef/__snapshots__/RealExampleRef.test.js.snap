@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test RealExampleRef.js debe de mostrar correctamente 1`] = `
+<div>
+  <h1>
+    RealExampleRef
+  </h1>
+  <hr />
+  <div
+    className="form-group"
+  >
+    <button
+      className="btn btn-info"
+      onClick={[Function]}
+    >
+      Show/Hide
+    </button>
+  </div>
+</div>
+`;
